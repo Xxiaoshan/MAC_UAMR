@@ -1,7 +1,14 @@
 # MAC_UAMR
 We have released the "Multi-Representation Domain Attentive Contrastive Learning Based Unsupervised Automatic Modulation Recognition (MAC)" and our codebase to the community. In this work, we propose an unsupervised automatic modulation recognition (UAMR) method based on multi-domain contrastive learning. Existing deep learning-based AMR methods suffer from significant performance degradation when there is a lack of labeled samples. We evaluated the proposed method on three public datasets and across different sample sizes. By leveraging contrastive learning and multi-domain representation, MAC achieves representation learning of modulation signals using unlabeled signals. After unsupervised training, the encoder can achieve surprisingly effective semi-supervised modulation recognition when fine-tuned with a small amount of labeled samples.
 
-# Motivation
+## Article PDF
+[Multi-Representation Domain Attentive Contrastive Learning Based Unsupervised Automatic Modulation Recognition](https://www.researchsquare.com/article/rs-3696311/v1)
+
+Version 1
+
+posted 21 Jan, 2024
+
+## Motivation
 
 The existing data augmentation schemes for AMR primarily draw from those developed in computer vision or audio sequence fields. such as *flipping*, *rotating*, *adding Gaussian noise*. However, these methods do not consider data augmentation from the perspective of signal modulation characteristics, just like processing an image.
 <div align=center>
@@ -18,14 +25,13 @@ MAC inter-domain contrastive learning engages different representational domains
 pip install -r requirements.txt
 ```
 
-
 # Benchmark Datasets
 
 |Dataset|Modulation type|Signal sample size|Signal length|SNR|
 |:---|:---|:---|:---|:---|
-|RML2016.10A|11classes|220000|2\*128|-20:2:20|
-|RML2016.10B|10classes|1200000|2\*128|-20:2:20|
-|RML2018.01A|24classes|2555904|2\*1024|-20:2:30|
+|[RML2016.10A](https://www.deepsig.ai/datasets/)|11classes|220000|2\*128|-20:2:20|
+|[RML2016.10B](https://www.deepsig.ai/datasets/)|10classes|1200000|2\*128|-20:2:20|
+|[RML2018.01A](https://www.deepsig.ai/datasets/)|24classes|2555904|2\*1024|-20:2:30|
 
 ***RML2016.10A*: 8PSK, AM-DSB, AM-SSB, BPSK, CPFSK, GFSK, PAW4, QAM16, QAM64, QPSK, and WBFM.**
 
