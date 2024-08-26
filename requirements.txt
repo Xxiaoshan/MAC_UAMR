@@ -1,0 +1,15 @@
+python 3.7
+time
+torch 1.11.0
+tensorboard_logger
+torchvision 0.12.0
+matplotlib
+seaborn
+numpy
+h5py
+pickle
+random
+argparse
+sklearn
+math
+copy
