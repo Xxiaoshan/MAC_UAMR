@@ -16,7 +16,7 @@ The existing data augmentation schemes for AMR primarily draw from those develop
 </div>
 MAC inter-domain contrastive learning engages different representational domains that observe signal modulation characteristics in a high-dimensional space. This is analogous to viewing an object from multiple perspectives—frontal, lateral, and overhead—which provides a more comprehensive set of features (information) and makes the modulated signals recognizable.
 <div align=center>
-<img src="https://github.com/user-attachments/assets/0ad78381-d45c-476c-a0d7-8f6a8a1b9442" width="70%">
+<img src="https://github.com/user-attachments/assets/10bdbf56-def1-4c84-88d1-bb8e2a57d95c" width="70%">
 </div>
 
 # requirements
