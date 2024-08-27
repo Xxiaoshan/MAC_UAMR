@@ -39,12 +39,32 @@ pip install -r requirements.txt
 
 ***RML2018.01A*: 32PSK, 16APSK, 32QAM, FM, GMSK, 32APSK, OQPSK, 8ASK, BPSK, 8PSK, AM-SSB-SC, 4ASK, 16PSK, 64APSK, 128QAM, 128APSK, AM-DSB-SC, AM-SSB-WC, 64QAM, QPSK, 256QAM, AM-DSB-WC, OOK, 16QAM.**
 
+# About
 
+**Pretraing_MAC.py**: Implement unsupervised pre-training phase for MAC
 
-main.py is the main function of training for the entire unsupervised inter-domain contrastive learning.
+**Fine_tuning_Times.py**: Implement the linear evaluation and Fine-tuning phase of MAC (semi-supervised modulation recognition)
 
-LinearProbing.py is the main function of the linear evaluation stage.
-
-sp_AMR.py is training function for various supervised comparison methods.
-
-read2016_v1.py is the dataset reading code.
+# Citation
+If this repository is helpful to you, please cite our work.
+```
+@inproceedings{li_unsupervised_2023,
+	title = {Unsupervised {Modulation} {Recognition} {Method} {Based} on {Multi}-{Domain} {Representation} {Contrastive} {Learning}},
+	booktitle = {2023 {IEEE} {International} {Conference} on {Signal} {Processing}, {Communications} and {Computing} ({ICSPCC})},
+	author = {Li, Yu and Shi, Xiaoran and Yang, Xinyao and Zhou, Feng},
+	month = nov,
+	year = {2023},
+	pages = {1--6},
+}
+```
+```
+@article{multi-representation_2024,
+	title = {Multi-{Representation} {Domain} {Attentive} {Contrastive} {Learning} {Based} {Unsupervised} {Automatic} {Modulation} {Recognition}},
+	url = {https://www.researchsquare.com},
+	author = {Li, Yu and Shi, Xiaoran and Yang, Xinyao and Zhou, Feng},
+	language = {en},
+	urldate = {2024-03-08},
+	month = jan,
+	year = {2024},
+}
+```
